@@ -1,0 +1,143 @@
+* {
+	/**reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+
+
+.menu {
+	height: 200px;
+	background-image: url(../images/vin1.jpeg); 
+	background-position: center;
+	font-family: 'Kumar One Outline', cursive;
+	font-family: 'Niconne', cursive;
+	font-size: 50px;
+	color: white;
+	border: 2px solid white;
+}
+
+
+h3 {
+	font-family: 'Volkhov', serif;
+	font-size: 25px;
+	color: white;
+
+
+}
+.sidebar {
+	height: 300px;
+	background-color: #f09a9d; /*red*/
+	font-family: 'Kumar One Outline', cursive;
+	font-family: 'Niconne', cursive;
+	font-size: 50px;
+	color: white;
+	border: 2px solid white;
+	width: 200px;
+	float: left;
+}
+
+.content {
+	float: right;
+	height: 500px;
+	width: 650px;
+	background-color: #f5cf8e; /*yellow*/
+	font-family: 'Kumar One Outline', cursive;
+	font-family: 'Niconne', cursive;
+	font-size: 50px;
+	color: white;
+	border: 2px solid white;
+}
+
+.coment {
+	font-size: 20px;
+	color: black;
+
+}
+
+
+.article-image {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+ 
+p { 
+	margin-bottom: 20px;
+ }
+
+
+
+
+.footer {
+	clear: both;
+	/*height: 200px;*/
+	/*background-color: #d6e9fe;*/ /*lighht blue*/
+	/*border: 5px solid red;*/
+	background-image: url(../images/vin1.jpeg); 
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	border: 2px solid white;
+
+}
+
+.page {
+	width: 900px;
+	margin: 0 auto;
+	/*0 for horinzontal margin
+	auto for vertical margin*/
+	/*border: 1px solid red;*/
+	/*background: #eaedf0;*/
+}
+
+.container {
+	background-image: url(../images/vin2.jpeg);
+	background-position: center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.clear:after {
+	content: "";/* invisible element*/
+	clear: both;
+	display: block;
+}
+
+.column {
+	background: #64403e;
+	height: 160px;
+	width: 31%;
+	margin: 20px 1.16%;
+	float: left;
+
+}
+
+.avatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	margin: 25px;
+	border-radius: 40px;
+	background-color: #d6e9fe;
+}
+
+.username {
+	margin-top: 30px;
+}
+
+.comment {
+	margin: 10px;
+	overflow: hidden; /*this is important*/
+}
